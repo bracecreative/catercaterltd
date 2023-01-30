@@ -1,0 +1,9 @@
+/*
+Theme Name: Cater Cater
+Author: Brace Creative Agency
+Text Domain: cc-theme
+*/
+
+/* To edit the CSS, edit the sass files and 
+be sure to compile to main.min.css */
+@import url(../catercater/css/main.css);

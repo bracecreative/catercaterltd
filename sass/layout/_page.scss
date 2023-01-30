@@ -1,0 +1,408 @@
+.intro-content {
+	padding: 50px 0;
+	text-align: center;
+
+	.header {
+		hr {
+			width: 200px;
+			border: 2px solid $maroon;
+		}
+
+		.heading {
+			font-size: 40px;
+			line-height: 44px;
+			text-transform: uppercase;
+			font-weight: $f-light;
+		}
+	}
+
+	.text-content {
+		margin-top: 40px;
+
+		p {
+			font-size: 16px;
+			line-height: 20px;
+			font-weight: $f-light;
+
+			span {
+				color: $maroon;
+				font-weight: $f-regular;
+			}
+		}
+
+		a {
+			color: $maroon;
+			font-weight: $f-bold;
+			transition: all 0.3s ease;
+			text-decoration: none;
+
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+
+	&#service-intro {
+		.quote-wrapper {
+			margin-top: 100px;
+		}
+	}
+
+	.quote-wrapper {
+		margin-top: 30px;
+
+		.quote {
+			color: $maroon;
+			font-size: 24px;
+			text-align: right;
+		}
+
+		.author {
+			text-align: right;
+
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+
+	&.blue {
+		.header {
+			hr {
+				border-color: $blue;
+			}
+		}
+
+		.text-content {
+			p {
+				span {
+					color: $blue;
+				}
+			}
+		}
+
+		.quote-wrapper {
+			.quote {
+				color: $blue;
+			}
+
+			.author {
+				color: $blue;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.intro-content {
+		&#about-intro {
+			padding-bottom: 350px;
+		}
+
+		&#service-intro {
+			padding-bottom: 300px;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.intro-content {
+		&#service-intro {
+			padding-bottom: 350px;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.intro-content {
+		text-align: left;
+
+		.header {
+			hr {
+				margin-left: 0;
+			}
+		}
+
+		.text-content {
+			column-count: 2;
+			text-align: justify;
+			-webkit-column-count: 2; /* Chrome, Safari, Opera */
+			-moz-column-count: 2; /* Firefox */
+			column-count: 2;
+			column-gap: 40px;
+		}
+
+		&#about-intro {
+			background-image: url('../img/about-content-bg.jpg');
+			background-size: cover;
+			background-position: left bottom;
+			background-repeat: no-repeat;
+		}
+
+		&#service-intro-education {
+			background-image: url('../img/education-catercater.jpg');
+			background-size: cover;
+			background-position: left bottom;
+			background-repeat: no-repeat;
+		}
+
+		&#service-intro-leisure {
+			background-image: linear-gradient(
+					rgba(255, 255, 255, 0.8),
+					rgba(255, 255, 255, 0.8)
+				),
+				url('../img/service-bg.jpg');
+			background-size: cover;
+			background-position: left bottom;
+			background-repeat: no-repeat;
+		}
+
+		&#service-intro-workplace {
+			background-image: url('../img/buffet-catercater.jpg');
+			background-size: cover;
+			background-position: left bottom;
+			background-repeat: no-repeat;
+		}
+
+		&#service-intro-event {
+			background-image: url('../img/cake-catercater.jpg');
+			background-size: cover;
+			background-position: left bottom;
+			background-repeat: no-repeat;
+		}
+
+		&#service-intro-weddings {
+			background-image: url('../img/buffet2-catercater.jpg');
+			background-size: cover;
+			background-position: left bottom;
+			background-repeat: no-repeat;
+		}
+
+		&#service-intro-buffets {
+			background-image: url('../img/kebab-catercater.jpg');
+			background-size: cover;
+			background-position: left bottom;
+			background-repeat: no-repeat;
+		}
+	}
+}
+
+// Page CTA
+.page-cta {
+	padding: 50px 0;
+	background-color: $maroon;
+	color: $white;
+	text-align: center;
+
+	.heading {
+		font-size: 50px;
+		margin-bottom: 0;
+		font-family: 'Kristi', serif;
+	}
+
+	.btn {
+		margin-top: 30px;
+	}
+
+	&.blue {
+		background-color: $blue;
+	}
+}
+
+@media (min-width: 768px) {
+	.page-cta {
+		text-align: left;
+
+		.heading {
+			font-size: 60px;
+		}
+
+		.btn {
+			margin: 0;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.page-cta {
+		.heading {
+			font-size: 64px;
+		}
+	}
+}
+
+// Bottom Content
+.bottom-content {
+	padding: 50px 0;
+
+	.header {
+		text-align: center;
+		p {
+			color: $maroon;
+			font-size: 16px;
+		}
+	}
+}
+
+.award {
+	text-align: center;
+	margin-top: 40px;
+	color: #cf1879;
+	font-size: 23px;
+
+	img {
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 768px) {
+	.award {
+		text-align: left;
+	}
+}
+
+ul.red-forks {
+	margin-bottom: 0px;
+	padding-left: 0;
+	list-style: none;
+
+	li {
+		position: relative;
+		padding-left: 50px;
+		margin: 20px 0;
+		color: #8d8d8d;
+		font-size: 20px;
+
+		&:before {
+			position: absolute;
+			content: '';
+			background-image: url('../img/red-fork.png');
+			background-repeat: no-repeat;
+			width: 35px;
+			height: 60px;
+			left: 0;
+			top: -5px;
+		}
+	}
+}
+
+ul.blue-forks {
+	margin-top: 50px;
+	margin-bottom: 0px;
+	padding-left: 0;
+	list-style: none;
+
+	li {
+		position: relative;
+		padding-left: 50px;
+		margin: 20px 0;
+		color: #8d8d8d;
+		font-size: 16px;
+
+		&:before {
+			position: absolute;
+			content: '';
+			background-image: url('../img/blue-fork.png');
+			background-repeat: no-repeat;
+			width: 35px;
+			height: 60px;
+			left: 0;
+			top: -33px;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.bottom-content {
+		background-image: url('../img/tart-bg.jpg');
+		background-size: cover;
+		background-position: right bottom;
+		background-repeat: no-repeat;
+
+		.header {
+			text-align: left;
+		}
+
+		.award {
+			text-align: left;
+			display: flex;
+			align-items: center;
+
+			img {
+				margin-bottom: 0;
+				margin-right: 20px;
+			}
+		}
+	}
+}
+
+// Bottom content blue
+.bottom-content-blue {
+	.bg-image {
+		background-image: url('../img/bottom-blue-bg.jpg');
+		background-size: cover;
+		background-position: center center;
+	}
+
+	.left-side {
+		padding: 30px;
+	}
+
+	.header {
+		text-align: center;
+
+		p {
+			font-size: 16px;
+			color: $blue;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.bottom-content-blue {
+		.left-side {
+			padding: 100px;
+		}
+
+		.header {
+			text-align: left;
+		}
+	}
+}
+
+// Team Members Page
+.team-members {
+	h3 {
+		color: $maroon;
+		font-family: 'Kristi', serif;
+		font-size: 44px;
+	}
+
+	p {
+		text-transform: uppercase;
+		font-weight: $f-light;
+	}
+}
+
+// Location page header spacing
+.location-padding {
+	padding-top: 116px;
+}
+
+@media screen and (min-width: 568px) {
+	.location-padding {
+		padding-top: 147px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.location-padding {
+		padding-top: 116px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.location-padding {
+		padding-top: 147px;
+	}
+}

@@ -1,0 +1,255 @@
+// Header
+header {
+	padding: 0 20px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	background: rgba(255, 255, 255, 0.58);
+	transition: all 500ms ease-in-out;
+}
+
+@media (min-width: 768px) {
+	header {
+		padding: 0 50px;
+	}
+}
+
+@media (min-width: 992px) {
+	header {
+		padding: 0 50px;
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		padding: 0 100px;
+	}
+}
+
+.top-nav {
+	padding: 10px 0;
+	border-bottom: 1px solid $dark;
+
+	.social {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		// margin-bottom: 20px;
+		height: 100%;
+		text-transform: uppercase;
+
+		&::after {
+			content: '|';
+			padding: 0 1rem;
+			height: 33px;
+			color: #8d062c;
+		}
+
+		a {
+			&:first-child {
+				margin-right: 20px;
+			}
+		}
+
+		i {
+			font-size: 30px;
+		}
+	}
+
+	.logo-wrapper {
+		.logo {
+			max-width: 300px;
+			width: 100%;
+		}
+	}
+
+	.contact-link {
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		height: 100%;
+
+		a {
+			text-transform: uppercase;
+			font-size: 16px;
+		}
+
+		i {
+			font-size: 25px;
+		}
+	}
+
+	a {
+		font-size: 22px;
+		color: $maroon;
+		text-decoration: none;
+		transition: all 0.3s ease;
+
+		&:hover {
+			transform: translateY(-3px);
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.top-nav {
+		padding: 10px 0;
+
+		.social {
+			display: flex;
+			align-items: flex-end;
+			justify-content: flex-start;
+			margin-bottom: 0;
+		}
+	}
+}
+
+// Contact Info
+.contact-info {
+	margin-top: 10px;
+
+	a {
+		font-size: 22px;
+		color: #000;
+		text-decoration: none;
+		transition: all 0.3s ease;
+		display: block;
+
+		&:hover {
+			transform: translateY(-3px);
+		}
+	}
+}
+
+// Bottom Navigation
+.bottom-nav {
+	padding: 10px 0;
+
+	img {
+		width: 150px;
+		@media screen and (min-width: 568px) {
+			width: 210px;
+		}
+		@media screen and (min-width: 992px) {
+			width: 150px;
+		}
+		@media screen and (min-width: 1200px) {
+			width: 210px;
+		}
+	}
+
+	.navbar {
+		padding: 10px 0;
+
+		.collapse {
+			justify-content: center;
+		}
+
+		.navbar-toggler {
+			&:focus {
+				outline: none;
+			}
+		}
+
+		.brewfork-logo {
+			max-width: 75px;
+			margin-left: 15px;
+		}
+
+		.navbar-nav {
+			.nav-item {
+				margin: 0 10px;
+				transition: all 0.3s ease;
+
+				&.active {
+					border-bottom: 7px solid $maroon;
+				}
+
+				&:hover {
+					border-bottom: 7px solid $maroon;
+				}
+
+				.nav-link {
+					padding: 0;
+					font-size: 16px;
+					text-transform: uppercase;
+					letter-spacing: 0.75px;
+					color: $dark;
+				}
+			}
+		}
+	}
+
+	.dropdown-menu {
+		border-radius: 0;
+		margin-top: 7px;
+		border-bottom: 7px solid $maroon;
+
+		.dropdown-item {
+			text-transform: uppercase;
+
+			&:hover {
+				background: $white;
+				color: $dark;
+			}
+
+			&:active {
+				background-color: $white;
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.bottom-nav {
+		.navbar {
+			.navbar-nav {
+				.nav-item {
+					margin: 0 15px;
+
+					.nav-link {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.bottom-nav {
+		.navbar {
+			.navbar-nav {
+				.nav-item {
+					.nav-link {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Additional header styles
+.bottom-nav-container {
+	.social {
+		display: none;
+		@media screen and (min-width: 568px) {
+			display: block;
+		}
+		a {
+			text-decoration: none;
+			color: #861e37;
+			font-size: 2rem;
+			&:first-child {
+				margin-right: 0.5rem;
+				@media screen and (min-width: 992px) {
+					margin: 0;
+				}
+				@media screen and (min-width: 1200px) {
+					margin-right: 0.5rem;
+				}
+			}
+		}
+	}
+}

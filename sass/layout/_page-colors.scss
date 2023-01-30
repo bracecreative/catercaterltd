@@ -1,0 +1,372 @@
+// Education Page
+.page-id-120 {
+	.hero {
+		border-color: #a0599f;
+
+		.intro-text {
+			background-color: rgba(150, 150, 150, 0.8);
+
+			.heading {
+				color: #a0599f;
+			}
+		}
+
+		.btn.btn-main {
+			background-color: #a0599f;
+
+			&:hover {
+				background-color: $white;
+				color: #a0599f;
+				border-color: #a0599f;
+			}
+		}
+	}
+
+	.intro-content {
+		.header hr {
+			border-color: #a0599f;
+		}
+
+		.text-content p span {
+			color: #a0599f;
+		}
+
+		.text-content p a {
+			color: #a0599f;
+		}
+
+		.quote-wrapper {
+			.quote {
+				color: #a0599f;
+			}
+
+			.author p {
+				color: #a0599f;
+			}
+		}
+	}
+
+	.page-cta {
+		background-color: #a0599f;
+	}
+
+	.bottom-content-blue {
+		.bg-image {
+			background-image: url('../img/education-hero.jpg');
+		}
+
+		.header p {
+			color: #a0599f;
+		}
+	}
+
+	ul.blue-forks {
+		li:before {
+			background-image: url('../img/purple-fork.png');
+		}
+	}
+}
+
+// Leisure and Retail Page
+.page-id-154 {
+	.hero {
+		border-color: #9bc564;
+		background-position: center center;
+
+		.intro-text {
+			background-color: rgba(150, 150, 150, 0.8);
+
+			.heading {
+				color: #9bc564;
+			}
+		}
+
+		.btn.btn-main {
+			background-color: #9bc564;
+
+			&:hover {
+				background-color: $white;
+				color: #9bc564;
+				border-color: #9bc564;
+			}
+		}
+	}
+
+	.intro-content {
+		.header hr {
+			border-color: #9bc564;
+		}
+
+		.text-content p span {
+			color: #9bc564;
+		}
+
+		.text-content a {
+			color: #9bc564;
+		}
+
+		.quote-wrapper {
+			.quote {
+				color: #9bc564;
+			}
+
+			.author p {
+				color: #9bc564;
+			}
+		}
+	}
+
+	.page-cta {
+		background-color: #9bc564;
+	}
+
+	.bottom-content-blue {
+		.bg-image {
+			background-image: url('../img/brewfork-bottom-new.jpg');
+		}
+
+		.header p {
+			color: #9bc564;
+		}
+	}
+
+	ul.blue-forks {
+		li:before {
+			background-image: url('../img/green-fork.png');
+		}
+	}
+}
+
+// Brewfork Buffet Page
+.page-id-164 {
+	.hero {
+		border-color: #e63b11;
+
+		.intro-text {
+			background-color: rgba(150, 150, 150, 0.8);
+
+			.heading {
+				color: #e63b11;
+			}
+		}
+
+		.btn.btn-main {
+			background-color: #e63b11;
+
+			&:hover {
+				background-color: $white;
+				color: #e63b11;
+				border-color: #e63b11;
+			}
+		}
+	}
+
+	.intro-content {
+		.header hr {
+			border-color: #e63b11;
+		}
+
+		.text-content p span {
+			color: #e63b11;
+		}
+
+		.text-content a {
+			color: #e63b11;
+		}
+
+		.quote-wrapper {
+			.quote {
+				color: #e63b11;
+			}
+
+			.author p {
+				color: #e63b11;
+			}
+		}
+	}
+
+	.page-cta {
+		background-color: #e63b11;
+	}
+
+	.bottom-content-blue {
+		.bg-image {
+			background-image: url('../img/buffet-bottom.jpg');
+		}
+
+		.header p {
+			color: #e63b11;
+		}
+	}
+
+	ul.blue-forks {
+		li:before {
+			background-image: url('../img/orange-fork.png');
+		}
+	}
+}
+
+// Events page
+.page-id-160 {
+	.bottom-content-blue {
+		.bg-image {
+			background-image: url('../img/events-bottom-bg-new.jpg');
+		}
+		.header p {
+			color: $maroon;
+		}
+	}
+
+	ul.blue-forks {
+		li:before {
+			background-image: url('../img/red-fork.png');
+		}
+	}
+}
+
+// Workplace and Executive
+.page-id-157 {
+	.hero {
+		border-color: #302f5e;
+
+		.intro-text {
+			background-color: rgba(150, 150, 150, 0.8);
+
+			.heading {
+				color: #302f5e;
+			}
+		}
+
+		.btn.btn-main {
+			background-color: #302f5e;
+
+			&:hover {
+				background-color: $white;
+				color: #302f5e;
+				border-color: #302f5e;
+			}
+		}
+	}
+
+	.intro-content {
+		.header hr {
+			border-color: #302f5e;
+		}
+
+		.text-content p span {
+			color: #302f5e;
+		}
+
+		.text-content a {
+			color: #302f5e;
+		}
+
+		.quote-wrapper {
+			.quote {
+				color: #302f5e;
+			}
+
+			.author p {
+				color: #302f5e;
+			}
+		}
+	}
+
+	.page-cta {
+		background-color: #302f5e;
+	}
+
+	.bottom-content-blue {
+		.bg-image {
+			background-image: url('../img/workplace-bottom-bg.jpg');
+		}
+	}
+}
+
+// our team page
+.page-id-10 {
+	ul.blue-forks {
+		li:before {
+			background-image: url('../img/red-fork.png');
+		}
+	}
+}
+
+// wedding page
+.page-id-162 {
+	.hero {
+		border-color: #302f5e;
+
+		.intro-text {
+			background-color: rgba(150, 150, 150, 0.8);
+
+			.heading {
+				color: #302f5e;
+			}
+		}
+
+		.btn.btn-main {
+			background-color: #302f5e;
+
+			&:hover {
+				background-color: $white;
+				color: #302f5e;
+				border-color: #302f5e;
+			}
+		}
+	}
+
+	.intro-content {
+		.header hr {
+			border-color: #302f5e;
+		}
+
+		.text-content p span {
+			color: #302f5e;
+		}
+
+		.text-content a {
+			color: #302f5e;
+		}
+
+		.quote-wrapper {
+			.quote {
+				color: #302f5e;
+			}
+
+			.author p {
+				color: #302f5e;
+			}
+		}
+	}
+
+	.page-cta {
+		background-color: #302f5e;
+	}
+
+	.bottom-content-blue {
+		.bg-image {
+			background-image: url('../img/weddings-bottom-bg-new.jpg');
+		}
+	}
+}
+
+.maroon {
+	background-color: #8d062c;
+}
+
+.purple {
+	background-color: #a0599f;
+}
+
+.green {
+	background-color: #9bc564;
+}
+
+.blue {
+	background-color: #302f5e;
+}
+
+.orange {
+	background-color: #e63b11;
+}

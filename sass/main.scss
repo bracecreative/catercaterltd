@@ -1,0 +1,99 @@
+// Colours
+@import 'base/colors';
+@import 'base/fonts';
+
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/home';
+@import 'layout/page';
+@import 'layout/news';
+@import 'layout/page-colors';
+
+// Global Styles
+body {
+	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	// font-size: 40px !important;
+	// line-height: 44px !important;
+}
+
+p {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.btn {
+	background: $maroon;
+	border: 1px solid $white;
+	border-radius: 0;
+	color: $white;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 15px 25px;
+
+	&:hover {
+		background: $white;
+		color: $maroon;
+		border-color: $maroon;
+	}
+
+	&:focus {
+		box-shadow: none;
+	}
+
+	&.btn-main {
+		background: $maroon;
+		border: 1px solid $white;
+		color: $white;
+
+		&:hover {
+			background: $white;
+			color: $maroon;
+			border-color: $maroon;
+		}
+	}
+
+	&.btn-dark {
+		background: $dark;
+		border: 1px solid $white;
+		color: $white;
+
+		&:hover {
+			background: $white;
+			color: $dark;
+			border-color: $dark;
+		}
+	}
+
+	&.btn-grey {
+		background: #75696c;
+		border: 1px solid $white;
+		color: $white;
+
+		&:hover {
+			background: transparent;
+		}
+	}
+
+	&.btn-blue {
+		background: $blue;
+		border: 1px solid $white;
+		color: $white;
+
+		&:hover {
+			background: $white;
+			color: $blue;
+			border-color: $blue;
+		}
+	}
+}
+
+.slide-up {
+	// margin-top: -57px;
+	background: rgba(230, 230, 230, 0.88);
+}

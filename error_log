@@ -1,0 +1,14 @@
+[02-Oct-2019 19:52:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[22-Oct-2019 12:31:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[12-Sep-2020 18:35:42 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[02-Dec-2020 13:02:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[02-Dec-2020 13:02:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[02-Dec-2020 13:02:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[02-Dec-2020 13:02:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[12-Sep-2021 06:47:09 UTC] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/catercater/public_html/wp-content/themes/catercater/header.php on line 15
+[12-Sep-2021 06:47:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[01-Nov-2021 01:11:44 UTC] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/catercater/public_html/wp-content/themes/catercater/header.php on line 15
+[01-Nov-2021 01:11:44 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[06-Nov-2021 05:52:21 UTC] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/catercater/public_html/wp-content/themes/catercater/header.php on line 15
+[15-Dec-2021 11:36:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/catercater/public_html/wp-content/themes/catercater/index.php on line 1
+[15-Dec-2021 11:36:32 UTC] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/catercater/public_html/wp-content/themes/catercater/header.php on line 15

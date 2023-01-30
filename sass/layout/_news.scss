@@ -1,0 +1,92 @@
+.news {
+	padding: 30px 0;
+
+	.post-content {
+		margin: 30px 0;
+		.featured-img {
+			width: 100%;
+			padding-bottom: 100%;
+			// background-image: url("../img/sandwiches.jpg");
+			background-size: cover;
+			background-position: center center;
+			margin-bottom: 20px;
+			transition: all 0.3s ease;
+
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+
+		.content {
+			.heading {
+				text-decoration: none;
+				color: $maroon;
+				font-size: 32px;
+				margin-bottom: 1em;
+				transition: all 0.3s ease;
+
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+
+			.date {
+				font-size: 16px;
+				text-transform: uppercase;
+			}
+
+			p {
+				font-weight: $f-light;
+			}
+
+			a.read-more {
+				text-decoration: none;
+				color: $maroon;
+				font-weight: $f-bold;
+				text-transform: uppercase;
+				transition: all 0.3s ease;
+
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+}
+
+.single-post {
+	.header {
+		background: $maroon;
+		color: $white;
+		padding: 30px 0;
+
+		.heading {
+			font-size: 30px;
+		}
+	}
+
+	.date {
+		text-transform: uppercase;
+		font-weight: $f-light;
+	}
+
+	.post-content {
+		padding: 50px 0;
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.single-post {
+		.header {
+			padding: 50px 0;
+
+			.heading {
+				font-size: 38px;
+			}
+		}
+	}
+}
